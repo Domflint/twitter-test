@@ -7,10 +7,10 @@
     "licence": "MIT",
     "databox-type": "app",
     "tags": "",
-    "homepage": "https://github.com/domflint/domflint-",
+    "homepage": "https://github.com/domflint/twitter-test",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/domflint/domflint-.git"
+        "url": "git+https://github.com/domflint/twitter-test.git"
     },
     "packages": [
         {
