@@ -1,0 +1,58 @@
+[
+    {
+        "id": "c263c69a.644268",
+        "label": "new package",
+        "type": "tab"
+    },
+    {
+        "id": "27c21110.546cfe",
+        "type": "twitter",
+        "z": "c263c69a.644268",
+        "name": "",
+        "subtype": "twitterHashTagStream",
+        "x": 328.5,
+        "y": 331,
+        "wires": [
+            [
+                "a6e03594.d500b8",
+                "7e9251f7.a0f09"
+            ]
+        ]
+    },
+    {
+        "id": "a6e03594.d500b8",
+        "type": "listify",
+        "z": "c263c69a.644268",
+        "name": "",
+        "x": 502.5,
+        "y": 344,
+        "wires": [
+            [
+                "6fe45895.1e77b8"
+            ]
+        ]
+    },
+    {
+        "id": "7e9251f7.a0f09",
+        "type": "debugger",
+        "z": "c263c69a.644268",
+        "name": "",
+        "active": true,
+        "console": "false",
+        "complete": "false",
+        "x": 534,
+        "y": 183,
+        "wires": []
+    },
+    {
+        "id": "6fe45895.1e77b8",
+        "type": "app",
+        "z": "c263c69a.644268",
+        "name": "",
+        "appId": "webapp",
+        "layout": null,
+        "x": 787.5,
+        "y": 348,
+        "wires": []
+    }
+]
