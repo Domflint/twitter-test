@@ -1,0 +1,41 @@
+{
+    "manifest-version": 1,
+    "name": "domflint-",
+    "version": "0.1.0",
+    "description": "",
+    "author": "Domflint",
+    "licence": "MIT",
+    "databox-type": "app",
+    "tags": "",
+    "homepage": "https://github.com/domflint/domflint-",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/domflint/domflint-.git"
+    },
+    "packages": [
+        {
+            "id": "c263c69a.644268",
+            "name": "new package",
+            "purpose": "",
+            "required": false,
+            "datastores": [
+                "27c21110.546cfe"
+            ],
+            "benefits": ""
+        }
+    ],
+    "allowed-combinations": [],
+    "datasources": [
+        {
+            "type": "twitterHashTagStream",
+            "required": true,
+            "name": "twitter",
+            "clientid": "27c21110.546cfe",
+            "granularities": []
+        }
+    ],
+    "network-permissions": [],
+    "resource-requirements": {},
+    "volumes": [],
+    "export-whitelist": []
+}
